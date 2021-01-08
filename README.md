@@ -80,7 +80,7 @@ Publish the website in the given URL.
     </div>
     </div>
 {% endblock  %}
-
+```
 
 ### products.html
 ```
