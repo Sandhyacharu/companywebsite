@@ -84,18 +84,24 @@ Publish the website in the given URL.
 ### products.html
 ```
 {% extends "website/base.html" %}
-
 {% block content %}
+
+
 <div class="productcontent">
+  
     <h1><div class="about">Our Premium Products</div></h1>
+   
     <div class="productitems">
         <div class="productitem">
+           
             <div class="itemimage">
                 <img src="/static/img/c1.jpg" alt="product image">
             </div>
+
             <div class="itemname">4GB DDRA4 laptop memory</div>
             <div class="itemprice">Price: Rs.2000.00 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c2.jpg" alt="product image">
@@ -110,6 +116,7 @@ Publish the website in the given URL.
             <div class="itemname">Bosch 40055 computerchip</div>
             <div class="itemprice">Price: Rs.1000.00 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c4.jpg" alt="product image">
@@ -117,6 +124,7 @@ Publish the website in the given URL.
             <div class="itemname">Toner cartirage chip </div>
             <div class="itemprice">Price: Rs.2500.00 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c5.jpg" alt="product image">
@@ -124,6 +132,7 @@ Publish the website in the given URL.
             <div class="itemname">semiconductor</div>
             <div class="itemprice">Price: Rs.200.00 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c6.jpg" alt="product image">
@@ -131,6 +140,7 @@ Publish the website in the given URL.
             <div class="itemname">wifi chip</div>
             <div class="itemprice">Price: Rs.3000.00 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c71.jpg" alt="product image">
@@ -138,6 +148,7 @@ Publish the website in the given URL.
             <div class="itemname">Optical sensor</div>
             <div class="itemprice">Price: Rs.300 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c81.jpg" alt="product image">
@@ -145,6 +156,7 @@ Publish the website in the given URL.
             <div class="itemname">Broadbank modem</div>
             <div class="itemprice">Price: Rs.3000 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c9.jpg" alt="product image">
@@ -152,6 +164,7 @@ Publish the website in the given URL.
             <div class="itemname">computer chip</div>
             <div class="itemprice">Price: Rs.900 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c10.jpg" alt="product image">
@@ -159,6 +172,7 @@ Publish the website in the given URL.
             <div class="itemname">carbon chip</div>
             <div class="itemprice">Price: Rs.1000 </div>
         </div>
+
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/img/c11.jpg" alt="product image">
@@ -177,14 +191,11 @@ Publish the website in the given URL.
     </div>
 </div>
 {% endblock  %}
-
 ```
 
 ###people.html
-
 ```
 {% extends "website/base.html" %}
-
 {% block content %}
 <div class="peoplecontent">
     <h1><div class="about">Our Executive Workers</div></h1>
@@ -273,11 +284,15 @@ Publish the website in the given URL.
 ## OUTPUT:
 ![output](./static/img/output1.jpg)
 
-![output](./static/img/output1.jpg)
+![output](./static/img/output2.jpg)
+
+![output](./static/img/output3.jpg)
+
+![output](./static/img/output4.jpg)
 
 ## CODE VALIDATION REPORT:
-![output](./static/img/report1.jpg)
+![output](./static/img/report11.jpg)
 
-![output](./static/img/report2.jpg)
+![output](./static/img/report21.jpg)
 ## RESULT:
 Thus a website is designed for the chip manufacturing company and is hosted in the URL http://sandhya.student.saveetha.in:8000/. HTML code is validated.
