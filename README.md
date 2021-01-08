@@ -81,11 +81,11 @@ Publish the website in the given URL.
     </div>
 {% endblock  %}
 
+
 ### products.html
 ```
 {% extends "website/base.html" %}
 {% block content %}
-
 
 <div class="productcontent">
   
@@ -192,6 +192,7 @@ Publish the website in the given URL.
 </div>
 {% endblock  %}
 ```
+
 
 ###people.html
 ```
